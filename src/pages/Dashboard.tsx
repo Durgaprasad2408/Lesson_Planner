@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { useAuth } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/components/theme-provider';
-import { Moon, Sun, LogOut } from 'lucide-react';
 import LessonPlanForm from '@/components/LessonPlanForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
